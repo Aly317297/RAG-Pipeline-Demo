@@ -1,0 +1,15 @@
+# Secret environment variables (DO NOT COMMIT!)
+.env
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated Pipeline Artifacts (Optional to ignore, lets users generate fresh)
+01_tokens.json
+02_structured_topics.json
+03_vector_store.json
+04_retrieved_context.json
